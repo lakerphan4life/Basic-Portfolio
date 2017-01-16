@@ -1,0 +1,347 @@
+.navbar
+{
+	display: block;
+	overflow: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #ccc;
+}
+
+.name
+{
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	font-family: "Georgia";
+	float: left;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	z-index: 1;
+	padding: 10px 20px 7px 20px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -73px; 
+}
+
+
+body  {
+    background-image: url("http://imagecolony.com/wp-content/uploads/2016/08/Background-Image-5FE.jpg");
+    background-color: #cccccc;
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.logoLink
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+ul 
+{
+    list-style-type: none;
+    padding-bottom: 48px;
+    padding-top: 0px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+
+li 
+{
+    background-color: #f3e5e5;
+}
+
+li a 
+{
+    color: #aaa;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Helvetica";
+    float: right;
+}
+
+li a:hover 
+{
+    background-color: #ddd;
+}
+
+.contactBtn
+{
+	border-right: none;
+}
+
+.portfolioBtn
+{
+	border-right: 1px solid #bbb;
+}
+.aboutBtn
+{
+	border-right: 1px solid #bbb;
+}
+
+.contentArea
+{
+	width: 960px;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+.aboutBox
+{
+	width: 650px;
+	border: 1px solid #aaa;
+	position: relative;
+	height: auto;
+	background-color: white;
+	display: inline-block;
+}
+
+.aboutHeader
+{
+	color: #4aaaa5;
+	padding: 0px;
+	border-bottom: 5px solid #ddd;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.aboutContent
+{
+	width: 650px;
+
+}
+
+
+.tableP
+{
+	width: 650px;
+	margin-bottom: 40px;
+
+}
+
+table 
+{
+		width: 650px;
+}
+
+tr
+{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+
+.imanPic
+{
+	/* position: absolute; */
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	/* z-index: 0; */
+}
+
+.imageOverlay-left
+{
+  z-index: 100;
+  position: absolute;
+  top: 300px;
+  left: 23px;
+  padding-left: 113.5px;
+  padding-right: 113.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline;
+  overflow: auto;
+  color: white;
+  font-size: 24px;
+  font-family: "Helvetica";
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+.imageOverlay-right
+{
+  z-index: 100;
+  position: absolute;
+  top: 300px;
+  left: 347px;
+  padding-left: 113.5px;
+  padding-right: 113.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline;
+  overflow: auto;
+  color: white;
+  font-size: 24px;
+  font-family: "Helvetica";
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+
+.imageOverlay-left:hover
+{
+	background-color: blue;
+}
+.imageOverlay-right:hover
+{
+	background-color: blue;
+}
+
+.imanBio
+{
+	position: relative;
+	float: right;
+}
+
+.connectBox
+{
+	width: 270px;
+	border: 1px solid #aaa;
+	position: absolute;
+	background-color: white;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	display: inline-block;
+
+}
+
+.connectHeader
+{
+	color: #4aaaa5;
+	padding: 0px;
+	border-bottom: 5px solid #ddd;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.connectIcons
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.facebook
+{
+	margin-left: 20px;
+	margin-right: 5px;
+	text-decoration: none;	
+
+}
+
+.github
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	text-decoration: none;	
+}
+
+.linkedin
+{
+	margin-left: 5px;
+	margin-right: 20px;
+	text-decoration: none;	
+}
+
+.mainFooter
+{
+	background-color: #666;
+	color: white;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.contactForm
+{
+	background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.nameBox
+{
+	width: 99%;
+	border: 1px solid #ddd;
+	text-align: left;
+	text-decoration: none;
+	color: #aaa;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.emailBox
+{
+	width: 99%;
+	border: 1px solid #ddd;
+	text-align: left;
+	text-decoration: none;
+	color: #aaa;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.messageBox
+{
+	width: 99%;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 300px;
+	vertical-align: top;
+	border: 1px solid #ddd;
+	text-align: left;
+	text-decoration: none;
+	color: #aaa;
+
+}
+
+
+.submitBtn
+{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 20px;
+	background-color: #4aaaa5;
+	color: white;
+}
