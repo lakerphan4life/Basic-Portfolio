@@ -42,8 +42,25 @@ html, body {
 {
 	text-decoration: none;
 	color: white;
+
 }
 
+.logoLink:hover
+{
+	color: #ff8661;
+	font-style: oblique; 
+	background-color: #5df5ff;
+	unicode-bidi: bidi-override;
+  	direction: rtl;
+
+}
+
+.name:hover
+{
+		background-color: #5df5ff;
+		color: #ff8661;
+
+}
 
 ul 
 {
@@ -74,9 +91,34 @@ li a
     float: right;
 }
 
-li a:hover 
+li a.contactBtn:hover 
 {
-    background-color: #ddd;
+    background-color: #61b2ff;
+    color: white;
+    text-decoration: line-through;
+    font-style: oblique; 
+	
+}
+
+
+
+
+
+li a.portfolioBtn:hover 
+{
+    background-color: #61ff99;
+    color: white;
+    text-decoration: line-through;
+    font-style: oblique; 
+
+}
+
+li a.aboutBtn:hover 
+{
+    background-color: #ff8661;
+    color: white;
+    text-decoration: line-through;
+    font-style: oblique; 
 }
 
 .contactBtn
@@ -165,7 +207,15 @@ p
 	/* z-index: 0; */
 }
 
-.imageOverlay-left
+.imanPic:hover
+{
+-webkit-filter: grayscale(100%);
+  filter: grayscale(2%);
+  filter: contrast(150%);
+}
+
+
+.imageOverlay-left1
 {
   z-index: 100;
   position: absolute;
@@ -185,7 +235,7 @@ p
   text-decoration: none;
 }
 
-.imageOverlay-right
+.imageOverlay-right1
 {
   z-index: 100;
   position: absolute;
@@ -206,14 +256,66 @@ p
 }
 
 
-.imageOverlay-left:hover
+.imageOverlay-left1:hover
 {
 	background-color: blue;
 }
-.imageOverlay-right:hover
+.imageOverlay-right1:hover
 {
 	background-color: blue;
 }
+
+.imageOverlay-left2
+{
+  z-index: 100;
+  position: absolute;
+  bottom: 105px;
+  left: 23px;
+  padding-left: 113.5px;
+  padding-right: 113.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline;
+  overflow: auto;
+  color: white;
+  font-size: 24px;
+  font-family: "Helvetica";
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+.imageOverlay-right2
+{
+  z-index: 100;
+  position: absolute;
+  bottom: 105px;
+  left: 347px;
+  padding-left: 113.5px;
+  padding-right: 113.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline;
+  overflow: auto;
+  color: white;
+  font-size: 24px;
+  font-family: "Helvetica";
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+
+.imageOverlay-left2:hover
+{
+	background-color: blue;
+}
+.imageOverlay-right2:hover
+{
+	background-color: blue;
+}
+
+
 
 .imanBio
 {
