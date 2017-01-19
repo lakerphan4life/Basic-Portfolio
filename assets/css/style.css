@@ -21,9 +21,14 @@
 	padding: 10px 20px 7px 20px;
 }
 
+.menu
+{
+	width: 960px;
+
+}
+
 .page-wrap {
   min-height: 100%;
-  /* equal to footer height */
   margin-bottom: -73px; 
 }
 
@@ -147,7 +152,7 @@ li a.aboutBtn:hover
 
 .aboutBox
 {
-	width: 650px;
+	width: 648px;
 	border: 1px solid #aaa;
 	position: relative;
 	height: auto;
@@ -159,7 +164,7 @@ li a.aboutBtn:hover
 {
 	color: #4aaaa5;
 	padding: 0px;
-	border-bottom: 5px solid #ddd;
+	border-bottom: 3px solid #ddd;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -325,7 +330,7 @@ p
 
 .connectBox
 {
-	width: 270px;
+	width: 268px;
 	border: 1px solid #aaa;
 	position: absolute;
 	background-color: white;
@@ -339,7 +344,7 @@ p
 {
 	color: #4aaaa5;
 	padding: 0px;
-	border-bottom: 5px solid #ddd;
+	border-bottom: 3px solid #ddd;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -389,6 +394,7 @@ p
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Helvetica";
 
 }
 
@@ -446,4 +452,21 @@ p
 	font-size: 20px;
 	background-color: #4aaaa5;
 	color: white;
+}
+
+.tableP
+{
+	margin-bottom: 20px;
+}
+
+.mainFooter
+{
+	display: block;
+	padding-left: 100px;
+}
+
+small
+{
+		display: block;
+	width: 960px;
 }
